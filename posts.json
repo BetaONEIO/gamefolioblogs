@@ -58,7 +58,7 @@
   "featured": false,
   "image": {
     "type": "local",
-    "src": "./assets/indiegame-assets/becrowned-cover.jpg",
+    "src": "./assets/indiegame-assets/becrowned_cover.jpg",
     "alt": "BECROWNED"
   },
   "readTime": "5 min read"
