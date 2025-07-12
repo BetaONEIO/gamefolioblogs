@@ -1,4 +1,4 @@
-![BECROWNED](./assets/indiegame-assets/becrowned-cover.jpg)
+![BECROWNED](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/becrowned-cover.jpg)
 
 # BECROWNED: A Dread-Soaked Descent Inspired by Classic Psychological Horror.
 
@@ -12,7 +12,7 @@ Step into the eerie unknown with BECROWNED, a chilling indie horror experience d
 
 BECROWNED channels the spirit of early 2000s psychological horror, forgoing cheap jump scares in favor of slow-building tension and emotional disorientation. From fog-shrouded alleyways to decrepit buildings that seem to shift when you're not looking, the game constantly undermines your sense of place and safety. Fans of Silent Hill will feel right at home—and deeply unsettled.
 
-![Game example photo 2](./assets/indiegame-assets/becrowned_2.jpg)
+![Game example photo 2](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/becrowned_2.jpg)
 
 ---
 
@@ -20,7 +20,7 @@ BECROWNED channels the spirit of early 2000s psychological horror, forgoing chea
 
 There are no lengthy cutscenes or exposition dumps. Instead, BECROWNED reveals its story through exploration, eerie architecture, and subtle environmental cues. Strange markings on walls, bloodstained notes, and symbolic imagery guide players to their next destination—and deeper into the nightmare.
 
-![Game example photo 3](./assets/indiegame-assets/becrowned_3.gif)
+![Game example photo 3](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/becrowned_3.gif)
 
 ---
 
@@ -28,7 +28,7 @@ There are no lengthy cutscenes or exposition dumps. Instead, BECROWNED reveals i
 
 The game boasts a visual identity drenched in rust, mold, and decay. Every surface is unsettlingly textured, every hallway lit with flickering uncertainty. The design constantly plays tricks on your perception, with scenes that warp, shift, or fall away entirely. BECROWNED doesn't just want to scare you—it wants to unnerve you.
 
-![Game example photo 4](./assets/indiegame-assets/becrowned_4.gif)
+![Game example photo 4](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/becrowned_4.gif)
 
 ---
 
