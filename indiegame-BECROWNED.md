@@ -1,4 +1,4 @@
-![BECROWNED](./assets/indiegame-assets/becrowned-cover.jpg)
+![BECROWNED](./assets/indiegame-asset1s/becrowned-cover.jpg)
 
 # BECROWNED: A Dread-Soaked Descent Inspired by Classic Psychological Horror.
 
