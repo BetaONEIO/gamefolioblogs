@@ -4,7 +4,7 @@
 
 Step into the eerie unknown with BECROWNED, a chilling indie horror experience deeply inspired by the psychological terror of classic Silent Hill titles. This story-driven nightmare pulls you into a decaying world filled with dread, mystery, and horrors that defy explanation. With an atmosphere thick with tension and visuals that disturb as much as they intrigue, BECROWNED is a haunting return to horror that relies on mood, metaphor, and madness.
 
-![BECROWNED](./assets/indiegame-assets/becrowned-cover.jpg)
+![Game example photo 1](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/becrowned_1.gif)
 
 ---
 
