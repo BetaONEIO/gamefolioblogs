@@ -5,7 +5,7 @@
 You should join us! 
 
 <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/1NTYtFfgatk?si=Z9WD77NL8YHH_wXb" 
+  src="https://www.youtube.com/shorts/RfmtlKFYDto" 
   title="YouTube video player" frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   referrerpolicy="strict-origin-when-cross-origin" 
