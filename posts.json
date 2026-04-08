@@ -94,5 +94,21 @@
       "alt": "Swarm Me"
     },
     "readTime": "5 min read"
-  }  
+  },
+  {
+    "slug": "indiegame-HAIN",
+    "title": "Indie Spotlight Series #3 - H.A.I.N",
+    "excerpt": "H.A.I.N is a co-op horror game for 1–4 players where you collect artifacts and complete a ritual to escape a cursed world—but one player secretly becomes the traitor.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-04-08",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_hain/hain-coverart.jpg",
+      "alt": "H.A.I.N"
+    },
+    "readTime": "5 min read"
+  }
 ]
