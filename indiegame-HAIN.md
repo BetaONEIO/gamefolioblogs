@@ -24,14 +24,12 @@ You and your group are brought here as sacrifices for a powerful Necromancer. Bu
 Every location tells part of the story, filled with secrets, hidden paths, and clues that slowly reveal the truth behind the curse.
 
 <video autoplay muted loop playsinline style="
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100vw;
-    height: auto;
-    display: block;
-  ">
-  <source src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/backdrop.webm" type="video/webm">
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+">
+  <source src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/gameplaysnippet-1.webm" type="video/webm">
 </video>
 
 ---
