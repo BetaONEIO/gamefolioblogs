@@ -23,7 +23,7 @@ You and your group are brought here as sacrifices for a powerful Necromancer. Bu
 
 Every location tells part of the story, filled with secrets, hidden paths, and clues that slowly reveal the truth behind the curse.
 
-<!-- ![Game example photo 2](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/backdrop.webm) -->
+[![Game example photo 2](thumbnail.jpg)](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/backdrop.webm)
 
 ---
 
@@ -43,8 +43,7 @@ Survivors must work together, stay hidden, and use artifact-based abilities to s
 
 Moreover, there will be a chosen traitor among the survivors. The chosen traitor plays a completely different game. Their goal is to deceive, sabotage, and eliminate the group at the perfect moment. Blending in, gaining trust, and striking at the right time is what makes this role very nerve wracking!
 
-
-<!-- ![Game example photo 4](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/gameplay-snippet1.webm) -->
+[![Game example photo 3](thumbnail2.jpg)](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/gameplaysnippet-1.webm)
 
 ---
 
