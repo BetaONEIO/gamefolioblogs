@@ -110,5 +110,21 @@
       "alt": "H.A.I.N"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-cartaplifoldquest",
+    "title": "Indie Spotlight Series #4 - Cartapli Fold Quest",
+    "excerpt": "Cartapli: Fold Quest is a turn-based strategy roguelike where you can fold the battlefield to reposition enemies and solve puzzles!",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-04-11",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_cartaplifoldquest/cartaplifoldquest_cover.jpg",
+      "alt": "Cartapli FQ"
+    },
+    "readTime": "5 min read"
   }
 ]
