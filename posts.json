@@ -126,5 +126,21 @@
       "alt": "Cartapli FQ"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-spartacusbloodarena",
+    "title": "Indie Spotlight Series #5 - Spartacus Blood Arena",
+    "excerpt": "Spartacus: Blood Arena is a gladiator combat game where you fight through brutal arena battles, upgrade your gear, and rise through the ranks.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-04-15",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_cartaplifoldquest/spartacusbloodarena_cover.png",
+      "alt": "Spartacus Blood Arena"
+    },
+    "readTime": "5 min read"
   }
 ]
