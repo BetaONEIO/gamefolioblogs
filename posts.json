@@ -138,7 +138,7 @@
     "featured": false,
     "image": {
       "type": "local",
-      "src": "./assets/indiegame-assets/indiegame_cartaplifoldquest/spartacusbloodarena_cover.png",
+      "src": "./assets/indiegame-assets/indiegame_spartacusbloodarena/spartacusbloodarena_cover.png",
       "alt": "Spartacus Blood Arena"
     },
     "readTime": "5 min read"

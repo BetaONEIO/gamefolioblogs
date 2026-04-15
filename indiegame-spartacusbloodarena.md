@@ -10,6 +10,7 @@ Spartacus: Blood Arena throws players into the unforgiving life of a gladiator, 
 ## A Life Forged in the Arena
 
 In Spartacus: Blood Arena, you step into the role of a gladiator fighting for survival and glory. Every battle is a test of strength and endurance, as you climb through the ranks of the arena. The setting reflects the harsh reality of gladiatorial combat—where victory brings fame, and defeat means death.
+
 ---
 
 ## Combat That Demands Precision and Skill
