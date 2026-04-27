@@ -1,0 +1,39 @@
+name: Sync WordPress posts
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-save turndown
+
+      - name: Sync from WordPress
+        run: node .github/scripts/sync-wp.js
+
+      - name: Commit and push
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "gamefolio-bot"
+          git config user.email "bot@gamefolio.com"
+          git add -A
+          git commit -m "Sync new posts from WordPress"
+          git push
