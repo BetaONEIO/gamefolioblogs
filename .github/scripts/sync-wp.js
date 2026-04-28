@@ -2,8 +2,22 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const TurndownService = require('turndown');
 
-const WP_SITE = 'gamefolioblog.wordpress.com';
-const API_URL = `https://public-api.wordpress.com/wp/v2/sites/${WP_SITE}/posts?_embed&per_page=50&orderby=date&order=desc`;
+const WP_HOST = process.env.WP_HOST || 'gamefolio.gg';
+const WP_USERNAME = process.env.WP_USERNAME || '';
+const WP_APP_PASSWORD = process.env.WP_APP_PASSWORD || '';
+const API_URL = `https://${WP_HOST}/wp-json/wp/v2/posts?_embed&per_page=50&orderby=date&order=desc`;
+
+const BASIC_AUTH = WP_USERNAME && WP_APP_PASSWORD
+  ? 'Basic ' + Buffer.from(`${WP_USERNAME}:${WP_APP_PASSWORD}`).toString('base64')
+  : '';
+
+function authHeadersFor(url) {
+  if (!BASIC_AUTH) return {};
+  try {
+    if (new URL(url).host === WP_HOST) return { Authorization: BASIC_AUTH };
+  } catch {}
+  return {};
+}
 
 const ALLOWED_CATEGORIES = ['Indie games', 'Streaming', 'Gaming news', 'web3', 'Crypto', 'Community'];
 const FALLBACK_CATEGORY = 'Gaming news';
@@ -65,7 +79,7 @@ function extOf(url) {
 async function downloadImage(url, destDir, baseName) {
   await fs.mkdir(destDir, { recursive: true });
   const filename = `${baseName}${extOf(url)}`;
-  const res = await fetch(url);
+  const res = await fetch(url, { headers: authHeadersFor(url) });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   const buf = Buffer.from(await res.arrayBuffer());
   await fs.writeFile(path.join(destDir, filename), buf);
@@ -147,7 +161,7 @@ async function main() {
   const posts = JSON.parse(await fs.readFile(POSTS_JSON, 'utf8'));
   const knownSlugs = new Set(posts.map(p => p.slug));
 
-  const res = await fetch(API_URL);
+  const res = await fetch(API_URL, { headers: authHeadersFor(API_URL) });
   if (!res.ok) throw new Error(`WP API error: ${res.status} ${res.statusText}`);
   const wpPosts = await res.json();
 

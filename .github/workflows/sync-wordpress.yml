@@ -24,6 +24,10 @@ jobs:
         run: npm install --no-save turndown
 
       - name: Sync from WordPress
+        env:
+          WP_HOST: gamefolio.gg
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: node .github/scripts/sync-wp.js
 
       - name: Commit and push
