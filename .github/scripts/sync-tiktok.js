@@ -6,7 +6,7 @@ const { spawnSync } = require('node:child_process');
 const { google } = require('googleapis');
 
 const TIKTOK_USERNAME = (process.env.TIKTOK_USERNAME || '').replace(/^@/, '');
-const DRIVE_FOLDER_ID = process.env.DRIVE_FOLDER_ID || '';
+const DRIVE_FOLDER_ID = (process.env.DRIVE_FOLDER_ID || '').trim();
 const SERVICE_ACCOUNT_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON || '';
 const MAX_PER_RUN = parseInt(process.env.MAX_PER_RUN || '5', 10);
 
@@ -117,8 +117,26 @@ async function main() {
 
   const creds = JSON.parse(SERVICE_ACCOUNT_JSON);
   console.log(`Authenticating as service account: ${creds.client_email}`);
+  console.log(`DRIVE_FOLDER_ID length=${DRIVE_FOLDER_ID.length} starts=${DRIVE_FOLDER_ID.slice(0, 4)} ends=${DRIVE_FOLDER_ID.slice(-4)}`);
 
   const drive = makeDriveClient();
+
+  try {
+    const visible = await drive.files.list({
+      pageSize: 5,
+      fields: 'files(id, name, mimeType)',
+      supportsAllDrives: true,
+      includeItemsFromAllDrives: true,
+    });
+    const items = visible.data.files || [];
+    console.log(`Service account can see ${items.length} item(s) in Drive (showing up to 5):`);
+    for (const f of items) console.log(`  - ${f.name} [${f.mimeType}] id=${f.id}`);
+    if (items.length === 0) {
+      console.log('  (none — share a folder with the SA email above, or check Drive API is enabled on the SA project)');
+    }
+  } catch (err) {
+    console.error(`drive.files.list failed: ${err.message}`);
+  }
 
   try {
     const meta = await drive.files.get({
@@ -128,7 +146,7 @@ async function main() {
     });
     console.log(`Drive folder OK: "${meta.data.name}" (id=${meta.data.id}${meta.data.driveId ? `, sharedDrive=${meta.data.driveId}` : ''})`);
   } catch (err) {
-    console.error(`Cannot read DRIVE_FOLDER_ID=${DRIVE_FOLDER_ID}: ${err.message}`);
+    console.error(`Cannot read DRIVE_FOLDER_ID: ${err.message}`);
     console.error('Verify the folder is shared with the service account email above, and that DRIVE_FOLDER_ID matches the folder URL.');
     throw err;
   }
