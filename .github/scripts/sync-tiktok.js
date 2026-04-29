@@ -7,7 +7,9 @@ const { google } = require('googleapis');
 
 const TIKTOK_USERNAME = (process.env.TIKTOK_USERNAME || '').replace(/^@/, '');
 const DRIVE_FOLDER_ID = (process.env.DRIVE_FOLDER_ID || '').trim();
-const SERVICE_ACCOUNT_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON || '';
+const OAUTH_CLIENT_ID = (process.env.OAUTH_CLIENT_ID || '').trim();
+const OAUTH_CLIENT_SECRET = (process.env.OAUTH_CLIENT_SECRET || '').trim();
+const OAUTH_REFRESH_TOKEN = (process.env.OAUTH_REFRESH_TOKEN || '').trim();
 const MAX_PER_RUN = parseInt(process.env.MAX_PER_RUN || '5', 10);
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
@@ -87,19 +89,17 @@ async function uploadToDrive(drive, localPath, driveFilename) {
 }
 
 function makeDriveClient() {
-  const creds = JSON.parse(SERVICE_ACCOUNT_JSON);
-  const auth = new google.auth.JWT({
-    email: creds.client_email,
-    key: creds.private_key,
-    scopes: ['https://www.googleapis.com/auth/drive.file', 'https://www.googleapis.com/auth/drive'],
-  });
-  return google.drive({ version: 'v3', auth });
+  const oauth2 = new google.auth.OAuth2(OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET);
+  oauth2.setCredentials({ refresh_token: OAUTH_REFRESH_TOKEN });
+  return google.drive({ version: 'v3', auth: oauth2 });
 }
 
 async function main() {
   if (!TIKTOK_USERNAME) throw new Error('TIKTOK_USERNAME is required');
   if (!DRIVE_FOLDER_ID) throw new Error('DRIVE_FOLDER_ID is required');
-  if (!SERVICE_ACCOUNT_JSON) throw new Error('GOOGLE_SERVICE_ACCOUNT_JSON is required');
+  if (!OAUTH_CLIENT_ID || !OAUTH_CLIENT_SECRET || !OAUTH_REFRESH_TOKEN) {
+    throw new Error('OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, and OAUTH_REFRESH_TOKEN are all required');
+  }
 
   const state = await readState();
   const seen = new Set(state.seenIds);
@@ -115,39 +115,24 @@ async function main() {
   }
   console.log(`Will process ${newOnes.length} new video(s).`);
 
-  const creds = JSON.parse(SERVICE_ACCOUNT_JSON);
-  console.log(`Authenticating as service account: ${creds.client_email}`);
-  console.log(`DRIVE_FOLDER_ID length=${DRIVE_FOLDER_ID.length} starts=${DRIVE_FOLDER_ID.slice(0, 4)} ends=${DRIVE_FOLDER_ID.slice(-4)}`);
-
   const drive = makeDriveClient();
 
   try {
-    const visible = await drive.files.list({
-      pageSize: 5,
-      fields: 'files(id, name, mimeType)',
-      supportsAllDrives: true,
-      includeItemsFromAllDrives: true,
-    });
-    const items = visible.data.files || [];
-    console.log(`Service account can see ${items.length} item(s) in Drive (showing up to 5):`);
-    for (const f of items) console.log(`  - ${f.name} [${f.mimeType}] id=${f.id}`);
-    if (items.length === 0) {
-      console.log('  (none — share a folder with the SA email above, or check Drive API is enabled on the SA project)');
-    }
+    const about = await drive.about.get({ fields: 'user(emailAddress)' });
+    console.log(`Authenticated as: ${about.data.user?.emailAddress || '(unknown)'}`);
   } catch (err) {
-    console.error(`drive.files.list failed: ${err.message}`);
+    console.error(`drive.about.get failed: ${err.message}`);
   }
 
   try {
     const meta = await drive.files.get({
       fileId: DRIVE_FOLDER_ID,
-      fields: 'id, name, mimeType, driveId',
+      fields: 'id, name, mimeType',
       supportsAllDrives: true,
     });
-    console.log(`Drive folder OK: "${meta.data.name}" (id=${meta.data.id}${meta.data.driveId ? `, sharedDrive=${meta.data.driveId}` : ''})`);
+    console.log(`Drive folder OK: "${meta.data.name}" (id=${meta.data.id})`);
   } catch (err) {
     console.error(`Cannot read DRIVE_FOLDER_ID: ${err.message}`);
-    console.error('Verify the folder is shared with the service account email above, and that DRIVE_FOLDER_ID matches the folder URL.');
     throw err;
   }
 
