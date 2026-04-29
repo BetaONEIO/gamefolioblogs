@@ -115,7 +115,24 @@ async function main() {
   }
   console.log(`Will process ${newOnes.length} new video(s).`);
 
+  const creds = JSON.parse(SERVICE_ACCOUNT_JSON);
+  console.log(`Authenticating as service account: ${creds.client_email}`);
+
   const drive = makeDriveClient();
+
+  try {
+    const meta = await drive.files.get({
+      fileId: DRIVE_FOLDER_ID,
+      fields: 'id, name, mimeType, driveId',
+      supportsAllDrives: true,
+    });
+    console.log(`Drive folder OK: "${meta.data.name}" (id=${meta.data.id}${meta.data.driveId ? `, sharedDrive=${meta.data.driveId}` : ''})`);
+  } catch (err) {
+    console.error(`Cannot read DRIVE_FOLDER_ID=${DRIVE_FOLDER_ID}: ${err.message}`);
+    console.error('Verify the folder is shared with the service account email above, and that DRIVE_FOLDER_ID matches the folder URL.');
+    throw err;
+  }
+
   const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), 'tiktok-'));
 
   for (const video of newOnes) {
