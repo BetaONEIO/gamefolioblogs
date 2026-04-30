@@ -21,7 +21,7 @@ Victory in Pick 'N Punch feels earned because the game gives you nothing for fre
 
 The game doesn’t just test your reflexes—it tests your patience. Situations can spiral quickly, forcing players to think under pressure and adjust on the fly. Staying calm, learning from mistakes, and pushing forward are essential to making progress.
 
-![gameplay snippet 1](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay-snippet1.jpg)
+![gameplay snippet 1](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay_snippet1.jpg)
 
 ---
 
@@ -31,9 +31,9 @@ Each fight takes place in dynamic arenas where danger can come from any directio
 
 It captures the essence of gladiatorial combat through its gritty presentation and intense atmosphere. From the roar of the crowd to the clash of steel, every moment is designed to immerse players in the spectacle and brutality of the arena.
 
-![gameplay snippet 2](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay-snippet2.jpg)
+![gameplay snippet 2](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay_snippet2.jpg)
 
-![gameplay snippet 3](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay-snippet3.jpg)
+![gameplay snippet 3](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_picknpunch/gameplay_snippet3.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ It captures the essence of gladiatorial combat through its gritty presentation a
 * **Number of Players:** Single-player
 * **Online Features:** No online functionality; offline experience only
 * **Price:** Coming Soon! 
-* **Where to play:** Try the demo on [Steam](https://store.steampowered.com/app/4300010/Pick _N_Punch_The_Broken_World/)
+* **Where to play:** Try the demo on [Steam](https://store.steampowered.com/app/4300010/Pick_N_Punch_The_Broken_World/)
 
 Follow the developer for updates on [Twitter.](https://x.com/the21stCen)
 
