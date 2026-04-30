@@ -142,5 +142,21 @@
       "alt": "Spartacus Blood Arena"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-picknpunch",
+    "title": "Indie Spotlight Series #6 - Pick 'N Punch: The Broken World",
+    "excerpt": "Pick 'N Punch: The Broken World is a brutally difficult action roguelite where mistakes are heavily punished and progress can be lost.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-04-30",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_picknpunch/picknpunch_cover.jpg",
+      "alt": "Pick N Punch"
+    },
+    "readTime": "5 min read"
   }
 ]
