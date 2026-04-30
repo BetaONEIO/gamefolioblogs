@@ -1,0 +1,57 @@
+name: Sync TikTok to Drive
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install yt-dlp + ffmpeg
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade yt-dlp
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Node deps
+        run: npm install --no-save googleapis
+
+      - name: Sync TikTok → Drive
+        env:
+          TIKTOK_USERNAME: ${{ secrets.TIKTOK_USERNAME }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
+          OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
+          OAUTH_REFRESH_TOKEN: ${{ secrets.OAUTH_REFRESH_TOKEN }}
+          MAX_PER_RUN: '5'
+        run: node .github/scripts/sync-tiktok.js
+
+      - name: Commit state
+        run: |
+          if [[ -z "$(git status --porcelain .tiktok-state.json)" ]]; then
+            echo "No state changes."
+            exit 0
+          fi
+          git config user.name "gamefolio-bot"
+          git config user.email "bot@gamefolio.com"
+          git add .tiktok-state.json
+          git commit -m "Update TikTok sync state"
+          git push

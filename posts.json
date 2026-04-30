@@ -1,5 +1,29 @@
 [
   {
+    "slug": "5-steps-to-share-gaming-clips-and-get-featured-easy-guide-for-creators",
+    "title": "5 Steps to Share Gaming Clips and Get Featured (Easy Guide for Creators)",
+    "excerpt": "Welcome to the family, legends! 🎮 If you’re here, it’s because you’ve got skills, you’ve got style, and you’ve got moments that deserve way more than just sitting on your hard drive. We know the feeling, you land a cross-map headshot, execute a perfect speedrun trick, or discover a hidden gem in an indie game, […]",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-04-29",
+    "category": "Gaming news",
+    "featured": false,
+    "image": null,
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "hello-world",
+    "title": "Hello world!",
+    "excerpt": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-04-28",
+    "category": "Gaming news",
+    "featured": false,
+    "image": null,
+    "readTime": "1 min read"
+  },
+  {
     "slug": "welcome-to-gamefolio",
     "title": "Welcome to Gamefolio!",
     "excerpt": "At Gamefolio, we’re not just another gaming website — we’re a community-first platform that exists to support, promote, and celebrate the people behind the games.",
@@ -31,7 +55,7 @@
     },
     "readTime": "5 min read"
   },
-    {
+  {
     "slug": "our-boosted-server",
     "title": "Our boosted server..",
     "excerpt": "Our new Discord logo is just.. *Owen Wilson* wow..",
@@ -48,21 +72,21 @@
     "readTime": "5 min read"
   },
   {
-  "slug": "indiegame-BECROWNED",
-  "title": "Indie Spotlight Series #1 - BECROWNED",
-  "excerpt": "BECROWNED is a psychological horror game inspired by Silent Hill, focusing on atmosphere, symbolic storytelling, and emotional dread.",
-  "author": "Gamefolio Team",
-  "authorTwitter": "@gamefoliogg",
-  "publishedAt": "2025-07-12",
-  "category": "Indie games",
-  "featured": false,
-  "image": {
-    "type": "local",
-    "src": "./assets/indiegame-assets/becrowned_cover.jpg",
-    "alt": "BECROWNED"
+    "slug": "indiegame-BECROWNED",
+    "title": "Indie Spotlight Series #1 - BECROWNED",
+    "excerpt": "BECROWNED is a psychological horror game inspired by Silent Hill, focusing on atmosphere, symbolic storytelling, and emotional dread.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2025-07-12",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/becrowned_cover.jpg",
+      "alt": "BECROWNED"
+    },
+    "readTime": "5 min read"
   },
-  "readTime": "5 min read"
-},
   {
     "slug": "gamefolio-beta-is-live",
     "title": "The Gamefolio Beta is Live — and You're Invited",
