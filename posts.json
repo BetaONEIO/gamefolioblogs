@@ -1,5 +1,37 @@
 [
   {
+    "slug": "how-to-share-gaming-clips-and-build-your-community-in-5-minutes",
+    "title": "How to Share Gaming Clips and Build Your Community in 5 Minutes",
+    "excerpt": "Welcome to the future of gaming visibility! 🚀 We know the feeling: you’ve just pulled off a spectacular quad-kill, discovered a brilliantly creative glitch in an indie gem, or finished a dev log for your own game that looks absolutely stunning. You want to share it, but the thought of navigating complex editing software or […]",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-05-04",
+    "category": "Gaming news",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/how-to-share-gaming-clips-and-build-your-community-in-5-minutes/cover.webp",
+      "alt": "How to Share Gaming Clips and Build Your Community in 5 Minutes"
+    },
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "why-everyone-is-talking-about-gaming-community-platforms-and-you-should-too",
+    "title": "Why Everyone Is Talking About Gaming Community Platforms (And You Should Too)",
+    "excerpt": "Hey there, gamers and creators! Mr. Watts here. If you’ve spent any time online lately, you’ve probably noticed that the way we talk about, play, and share our favorite games is shifting. It’s not just about sitting on your couch and hitting \"Start\" anymore. It’s about the connection, the shared victories, and the vibrant communities […]",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-05-04",
+    "category": "Gaming news",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/why-everyone-is-talking-about-gaming-community-platforms-and-you-should-too/cover.webp",
+      "alt": "Why Everyone Is Talking About Gaming Community Platforms (And You Should Too)"
+    },
+    "readTime": "6 min read"
+  },
+  {
     "slug": "how-to-promote-your-game-to-streamers-using-15-second-clips",
     "title": "How to Promote Your Game to Streamers Using 15-Second Clips",
     "excerpt": "Let’s be real for a second: streamers are busy. Like, super busy. Between managing their chat, setting up overlays, and actually playing games for hours on end, their inboxes are usually overflowing with emails from developers just like us. 🎮 If you’re an indie dev, you’ve probably felt that frustration. You’ve built something special, something […]",
