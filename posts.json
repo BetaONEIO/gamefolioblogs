@@ -226,5 +226,21 @@
       "alt": "Pick N Punch"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-ragdollphysicsexperiment",
+    "title": "Indie Spotlight Series #7 - RMF's Ragdoll Physics Experiments",
+    "excerpt": "RMF’s Ragdoll Physics Experiments is a physics sandbox where you experiment with ragdoll characters and systems to create unpredictable outcomes.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-05-06",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_ragdollphysicsexperiment/rpe_cover.jpg",
+      "alt": "Ragdoll Physics Experiment"
+    },
+    "readTime": "5 min read"
   }
 ]
