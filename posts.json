@@ -302,5 +302,21 @@
       "alt": "Ragdoll Physics Experiment"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-d3adhand.md",
+    "title": "Indie Spotlight Series #8 - D3AD HAND",
+    "excerpt": "D3AD HAND is a point-and-click comedy adventure set in a Soviet bunker where you must stop a nuclear launch caused by a malfunctioning system.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-05-12",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_d3adhand/d3adhand_cover.jpg",
+      "alt": "D3AD HAND"
+    },
+    "readTime": "5 min read"
   }
 ]
