@@ -186,7 +186,7 @@
     "featured": false,
     "image": {
       "type": "local",
-      "src": "./assets/indiegame-assets/becrowned_cover.jpg",
+      "src": "./assets/indiegame-assets/indiegame_becrowned/becrowned_cover.jpg",
       "alt": "BECROWNED"
     },
     "readTime": "5 min read"
@@ -208,7 +208,7 @@
     "readTime": "2 min read"
   },
   {
-    "slug": "indiegame-SwarmMe",
+    "slug": "indiegame-swarmme",
     "title": "Indie Spotlight Series #2 - Swarm Me",
     "excerpt": "Swarm Me is a top-down survival game where you can’t fight back—you survive by dodging enemies and luring them into traps.",
     "author": "Gamefolio Team",
@@ -218,7 +218,7 @@
     "featured": false,
     "image": {
       "type": "local",
-      "src": "./assets/indiegame-assets/swarmme_cover.jpg",
+      "src": "./assets/indiegame-assets/indiegame_swarmme/swarmme_cover.jpg",
       "alt": "Swarm Me"
     },
     "readTime": "5 min read"

@@ -3,7 +3,7 @@
 H.A.I.N: Heir of the Ancient Immortal Necromancer is a co-op horror experience that turns teamwork into paranoia. Set in a dark, cursed world, the game blends survival, exploration, and social deception—where one player is secretly chosen to betray the rest. In H.A.I.N, survival isn’t just about escaping the darkness… it’s about knowing who to trust.
 
 
-<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/HAIN.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_hain/hain_trailer.mp4" controls width="100%"></video>
 
 ---
 

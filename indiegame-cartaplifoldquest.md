@@ -3,7 +3,7 @@
 Cartapli: Fold Quest is a brilliantly creative indie title that redefines tactical gameplay by turning the battlefield into your primary weapon. Blending turn-based strategy, roguelike progression, and origami-inspired mechanics, the game challenges players to think spatially—literally folding the world to survive.
 
 
-<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/Cartapli%20Fold%20Quest.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_cartaplifoldquest/cartapli_trailer.mp4" controls width="100%"></video>
 
 ---
 

@@ -4,7 +4,7 @@ Swarm Me is a fast-paced, minimalist survival game that flips the script on trad
 
 ---
 
-<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/Swarm%20Me.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_swarmme/swarmme_trailer.mp4" controls width="100%"></video>
 
 ---
 
