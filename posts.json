@@ -1,5 +1,21 @@
 [
   {
+    "slug": "why-a-dedicated-gaming-community-platform-will-change-the-way-you-share-gaming-clips",
+    "title": "Why a Dedicated Gaming Community Platform Will Change the Way You Share Gaming Clips",
+    "excerpt": "Let’s be real for a second: we’ve all been there. You just pulled off the most insane clutch in a high-stakes FPS, or maybe you finally discovered that hidden easter egg in a charming indie gem. Naturally, you want to show it off! 🎥 You head over to the usual social media giants, upload your […]",
+    "author": "Tom Watts",
+    "authorTwitter": "@w0tts",
+    "publishedAt": "2026-05-14",
+    "category": "Gaming news",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/why-a-dedicated-gaming-community-platform-will-change-the-way-you-share-gaming-clips/cover.webp",
+      "alt": "Why a Dedicated Gaming Community Platform Will Change the Way You Share Gaming Clips"
+    },
+    "readTime": "6 min read"
+  },
+  {
     "slug": "stop-wasting-time-on-generic-social-media-try-these-7-quick-hacks-to-connect-with-gamers",
     "title": "Stop Wasting Time on Generic Social Media: Try These 7 Quick Hacks to Connect with Gamers",
     "excerpt": "We’ve all been there. You spend hours editing the perfect clip, craft a witty caption, and hit \"post\" on a generic social media platform, only to be met with… silence. Maybe a couple of bots like your post, or worse, your content gets buried under a mountain of food photos and political rants. If you're […]",
@@ -319,5 +335,4 @@
     },
     "readTime": "5 min read"
   }
-  
 ]
