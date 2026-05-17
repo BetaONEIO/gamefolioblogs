@@ -334,5 +334,21 @@
       "alt": "D3AD HAND"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-sportscardshopsimulator",
+    "title": "Indie Spotlight Series #9 - Sports Card Shop Simulator",
+    "excerpt": "Sports Card Shop Simulator is a shop management sim where you open card packs, collect rare cards, and build your own trading card business.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-05-17",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_sportscardshopsimulator/sportscardshopsimulator_cover.jpg",
+      "alt": "Sports Card Shop Sim"
+    },
+    "readTime": "5 min read"
   }
 ]
