@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/gamefolio-skale-partnership/banner.png" alt="Gamefolio x SKALE on Base" style="width: 100%; max-width: 100%; height: auto; object-fit: contain; display: block;" />
-
 Gaming has changed massively over the last decade. Millions of people now spend their evenings playing games, streaming to friends, creating clips, or sharing moments online. Yet despite how huge gaming culture has become, most gaming content still feels temporary. You hit an incredible play, save a funny moment with your friends, or pull off something rare in game, only for that clip to disappear into a WhatsApp chat, get buried on social media, or lost somewhere on your hard drive.
 
 That's one of the main reasons we started building Gamefolio.

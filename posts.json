@@ -8,7 +8,11 @@
     "publishedAt": "2026-05-17",
     "category": "Crypto",
     "featured": false,
-    "image": null,
+    "image": {
+      "type": "local",
+      "src": "./assets/gamefolio-skale-partnership/banner.png",
+      "alt": "Gamefolio x SKALE on Base"
+    },
     "readTime": "5 min read"
   },
   {
