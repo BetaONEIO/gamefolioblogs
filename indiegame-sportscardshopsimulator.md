@@ -71,7 +71,7 @@ Moreover, the game features a dynamic market system where prices and demand shif
 
 ![Game example photo 4](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_sportscardshopsimulator/gameplaysnippet-5.jpg)
 
-![Game example photo 5](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_sportscardshopsimulator/gameplay_snippet6.jpg)
+![Game example photo 5](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_sportscardshopsimulator/gameplaysnippet-6.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ Moreover, the game features a dynamic market system where prices and demand shif
 * **Price:** Coming Soon!
 * **Where to play:** Wishlist now on [Steam](https://store.steampowered.com/app/4157170/Sports_Card_Shop_Simulator/)
 
-Also check out the developer on [Twitter.](https://x.com/OP_Team_)!
+Also check out the developer on [Twitter.](https://x.com/OP_Team_)
 
 ## Why You Should Wishlist 'Sports Card Shop Simulator'
 
