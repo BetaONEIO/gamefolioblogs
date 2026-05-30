@@ -394,5 +394,21 @@
       "alt": "Sports Card Shop Sim"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-cupordie",
+    "title": "Indie Spotlight Series #10 - Cup Or Die",
+    "excerpt": "Cup Or Die is a psychological horror roguelite built around a deadly game of beer pong.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-05-30",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_cupordie/cupordie_cover.jpg",
+      "alt": "Cup Or Die"
+    },
+    "readTime": "5 min read"
   }
 ]
