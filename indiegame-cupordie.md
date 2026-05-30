@@ -43,26 +43,6 @@ Unlike traditional sports or party games, Cup Or Die leans heavily into psycholo
 
 Missing a shot isn't just a minor setback. In Cup Or Die, failure means drinking. As your intoxication level rises, your ability to aim, think, and react begins to deteriorate. This creates a dangerous downward spiral where mistakes make future shots even harder, forcing players to carefully manage risk throughout their run.
 
-Furthermore, 
-
-<video autoplay muted loop playsinline style="
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-">
-  <source src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_cupordie/gameplaysnippet-2.webm" type="video/webm">
-</video>
-
-<video autoplay muted loop playsinline style="
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-">
-  <source src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_cupordie/gameplaysnippet-1.webm" type="video/webm">
-</video>
-
 ---
 
 ## Build a Run Through Strange Items and Passive Effects
@@ -103,6 +83,7 @@ This aspect is what we believe makes Cup Or Die stand out. It blends multiple ge
 ">
   <source src="https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/indiegame-assets/indiegame_cupordie/gameplaysnippet-4.webm" type="video/webm">
 </video>
+
 ---
 
 ## Game Details:
