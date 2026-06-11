@@ -24,7 +24,11 @@
     "publishedAt": "2026-05-18",
     "category": "Gaming news",
     "featured": false,
-    "image": null,
+    "image": {
+      "type": "local",
+      "src": "./assets/how-to-promote-your-game-using-the-social-layer-framework/inline-1.webp",
+      "alt": "How to Promote Your Game Using the “Social Layer” Framework"
+    },
     "readTime": "6 min read"
   },
   {
@@ -68,7 +72,11 @@
     "publishedAt": "2026-05-11",
     "category": "Gaming news",
     "featured": false,
-    "image": null,
+    "image": {
+      "type": "local",
+      "src": "./assets/stop-wasting-time-on-generic-social-media-try-these-7-quick-hacks-to-connect-with-gamers/inline-1.webp",
+      "alt": "Stop Wasting Time on Generic Social Media: Try These 7 Quick Hacks to Connect with Gamers"
+    },
     "readTime": "6 min read"
   },
   {
@@ -160,7 +168,11 @@
     "publishedAt": "2026-05-01",
     "category": "Gaming news",
     "featured": false,
-    "image": null,
+    "image": {
+      "type": "local",
+      "src": "./assets/how-to-promote-your-game-to-streamers-using-15-second-clips/inline-1.webp",
+      "alt": "How to Promote Your Game to Streamers Using 15-Second Clips"
+    },
     "readTime": "5 min read"
   },
   {
@@ -172,7 +184,11 @@
     "publishedAt": "2026-04-29",
     "category": "Gaming news",
     "featured": false,
-    "image": null,
+    "image": {
+      "type": "local",
+      "src": "./assets/5-steps-to-share-gaming-clips-and-get-featured-easy-guide-for-creators/inline-1.webp",
+      "alt": "5 Steps to Share Gaming Clips and Get Featured (Easy Guide for Creators)"
+    },
     "readTime": "5 min read"
   },
   {
