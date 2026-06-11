@@ -192,18 +192,6 @@
     "readTime": "5 min read"
   },
   {
-    "slug": "hello-world",
-    "title": "Hello world!",
-    "excerpt": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!",
-    "author": "Tom Watts",
-    "authorTwitter": "@w0tts",
-    "publishedAt": "2026-04-28",
-    "category": "Gaming news",
-    "featured": false,
-    "image": null,
-    "readTime": "1 min read"
-  },
-  {
     "slug": "welcome-to-gamefolio",
     "title": "Welcome to Gamefolio!",
     "excerpt": "At Gamefolio, we’re not just another gaming website — we’re a community-first platform that exists to support, promote, and celebrate the people behind the games.",
