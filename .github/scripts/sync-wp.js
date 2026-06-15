@@ -21,6 +21,9 @@ function authHeadersFor(url) {
 
 const ALLOWED_CATEGORIES = ['Indie games', 'Streaming', 'Gaming news', 'web3', 'Crypto', 'Community'];
 const FALLBACK_CATEGORY = 'Gaming news';
+
+// Slugs that should never be imported from WordPress (e.g. default placeholder posts).
+const EXCLUDED_SLUGS = new Set(['hello-world']);
 const AUTHOR = 'Tom Watts';
 const AUTHOR_TWITTER = '@w0tts';
 
@@ -168,6 +171,10 @@ async function main() {
   const newEntries = [];
   for (const post of wpPosts) {
     if (knownSlugs.has(post.slug)) continue;
+    if (EXCLUDED_SLUGS.has(post.slug)) {
+      console.log(`Skipped (excluded): ${post.slug}`);
+      continue;
+    }
     try {
       const entry = await processPost(post);
       newEntries.push(entry);
