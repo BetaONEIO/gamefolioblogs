@@ -414,5 +414,21 @@
       "alt": "Cup Or Die"
     },
     "readTime": "5 min read"
+  },
+  {
+    "slug": "indiegame-scrubdudes",
+    "title": "Indie Spotlight Series #11 - Scrub Dudes",
+    "excerpt": "Scrub Dudes is a cozy cleaning and exploration game set in a handcrafted world made of cardboard and fabric.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-06-16",
+    "category": "Indie games",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/indiegame-assets/indiegame_scrubdudes/scrubdudes_cover.jpg",
+      "alt": "Scrub Dudes"
+    },
+    "readTime": "5 min read"
   }
 ]
