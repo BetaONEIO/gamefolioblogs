@@ -1,5 +1,21 @@
 [
   {
+    "slug": "gamefolio-bga-partnership",
+    "title": "Gamefolio Joins the Blockchain Game Alliance",
+    "excerpt": "We are incredibly proud to announce that Gamefolio has officially joined the Blockchain Game Alliance (BGA) — placing us alongside some of the most innovative companies in gaming and Web3 as we help shape the next generation of gaming.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-06-16",
+    "category": "web3",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/bga-partnership/banner.jpg",
+      "alt": "Gamefolio Joins the Blockchain Game Alliance"
+    },
+    "readTime": "3 min read"
+  },
+  {
     "slug": "the-ultimate-guide-to-the-indie-game-showcase-everything-you-need-to-succeed",
     "title": "The Ultimate Guide to the Indie Game Showcase: Everything You Need to Succeed",
     "excerpt": "Welcome to the big stage! 🎥 Whether you’re a solo developer pouring your heart into a passion project or a small team ready to disrupt the industry, getting your game noticed is a massive milestone. We know exactly how much work goes into every line of code, every pixel of art, and every second of […]",
