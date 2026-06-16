@@ -1,4 +1,4 @@
-We are incredibly proud to announce that Gamefolio has officially joined the Blockchain Game Alliance (BGA).
+We are incredibly proud to announce that Gamefolio has officially joined the [Blockchain Game Alliance (BGA)](https://blockchaingamealliance.net/).
 
 As a platform dedicated to helping gamers, creators, streamers, indie developers, and gaming communities grow, this marks an exciting milestone in our journey as we continue building the future of gaming.
 
