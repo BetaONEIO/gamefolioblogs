@@ -1,5 +1,21 @@
 [
   {
+    "slug": "gamefolio-mayhem-gaming-partnership",
+    "title": "Gamefolio Welcomes Mayhem Gaming",
+    "excerpt": "We are excited to announce a new partnership between Gamefolio and Mayhem Gaming, one of the most supportive and passionate gaming communities in the streaming space. Founded in 2020 by OfficiallyMayhem, the community has grown to nearly 7,500 members all supporting one another on their gaming journey.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-06-17",
+    "category": "Streaming",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/mayhem-welcome/banner.png",
+      "alt": "Gamefolio Welcomes Mayhem Gaming"
+    },
+    "readTime": "3 min read"
+  },
+  {
     "slug": "gamefolio-bga-partnership",
     "title": "Gamefolio Joins the Blockchain Game Alliance",
     "excerpt": "We are incredibly proud to announce that Gamefolio has officially joined the Blockchain Game Alliance (BGA) — placing us alongside some of the most innovative companies in gaming and Web3 as we help shape the next generation of gaming.",
