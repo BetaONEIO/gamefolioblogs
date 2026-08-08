@@ -1,17 +1,5 @@
 [
   {
-    "slug": "tom-testing",
-    "title": "tom testing",
-    "excerpt": "tom testing",
-    "author": "Tom Watts",
-    "authorTwitter": "@w0tts",
-    "publishedAt": "2026-08-08",
-    "category": "Gaming news",
-    "featured": false,
-    "image": null,
-    "readTime": "1 min read"
-  },
-  {
     "slug": "gamefolio-mayhem-gaming-partnership",
     "title": "Gamefolio Welcomes Mayhem Gaming",
     "excerpt": "We are excited to announce a new partnership between Gamefolio and Mayhem Gaming, one of the most supportive and passionate gaming communities in the streaming space. Founded in 2020 by OfficiallyMayhem, the community has grown to nearly 7,500 members all supporting one another on their gaming journey.",
@@ -30,7 +18,7 @@
   {
     "slug": "gamefolio-bga-partnership",
     "title": "Gamefolio Joins the Blockchain Game Alliance",
-    "excerpt": "We are incredibly proud to announce that Gamefolio has officially joined the Blockchain Game Alliance (BGA) — placing us alongside some of the most innovative companies in gaming and Web3 as we help shape the next generation of gaming.",
+    "excerpt": "We are incredibly proud to announce that Gamefolio has officially joined the Blockchain Game Alliance (BGA) \u2014 placing us alongside some of the most innovative companies in gaming and Web3 as we help shape the next generation of gaming.",
     "author": "Gamefolio Team",
     "authorTwitter": "@gamefoliogg",
     "publishedAt": "2026-06-16",
@@ -46,7 +34,7 @@
   {
     "slug": "gamefolio-skale-partnership",
     "title": "Gamefolio Partners with SKALE on Base to Power the Future of Gaming Content",
-    "excerpt": "TL/DR: Our partnership with SKALE on Base marks the next step for Gamefolio — scalable, gaming-first infrastructure for clip sharing, creator discovery, and digital ownership, plus the launch of our native token, GFT.",
+    "excerpt": "TL/DR: Our partnership with SKALE on Base marks the next step for Gamefolio \u2014 scalable, gaming-first infrastructure for clip sharing, creator discovery, and digital ownership, plus the launch of our native token, GFT.",
     "author": "Gamefolio Team",
     "authorTwitter": "@gamefoliogg",
     "publishedAt": "2026-05-17",
@@ -62,7 +50,7 @@
   {
     "slug": "welcome-to-gamefolio",
     "title": "Welcome to Gamefolio!",
-    "excerpt": "At Gamefolio, we’re not just another gaming website — we’re a community-first platform that exists to support, promote, and celebrate the people behind the games.",
+    "excerpt": "At Gamefolio, we\u2019re not just another gaming website \u2014 we\u2019re a community-first platform that exists to support, promote, and celebrate the people behind the games.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-07-03",
@@ -78,7 +66,7 @@
   {
     "slug": "join-our-discord",
     "title": "We have a Discord!",
-    "excerpt": "We're building something special at Gamefolio — a place where gamers, streamers, and indie developers can connect, share, and grow together.",
+    "excerpt": "We're building something special at Gamefolio \u2014 a place where gamers, streamers, and indie developers can connect, share, and grow together.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
     "publishedAt": "2025-07-03",
@@ -109,7 +97,7 @@
   },
   {
     "slug": "gamefolio-beta-is-live",
-    "title": "The Gamefolio Beta is Live — and You're Invited",
+    "title": "The Gamefolio Beta is Live \u2014 and You're Invited",
     "excerpt": "Create an account, post your best clips, reels and screenshots, follow the best content, and showcase what you're made of. The Gamefolio beta is open now.",
     "author": "Tom Watts",
     "authorTwitter": "@w0tts",
@@ -126,7 +114,7 @@
   {
     "slug": "indiegame-swarmme",
     "title": "Indie Spotlight Series #2 - Swarm Me",
-    "excerpt": "Swarm Me is a top-down survival game where you can’t fight back—you survive by dodging enemies and luring them into traps.",
+    "excerpt": "Swarm Me is a top-down survival game where you can\u2019t fight back\u2014you survive by dodging enemies and luring them into traps.",
     "author": "Gamefolio Team",
     "authorTwitter": "@gamefoliogg",
     "publishedAt": "2026-03-31",
@@ -142,7 +130,7 @@
   {
     "slug": "indiegame-HAIN",
     "title": "Indie Spotlight Series #3 - H.A.I.N",
-    "excerpt": "H.A.I.N is a co-op horror game for 1–4 players where you collect artifacts and complete a ritual to escape a cursed world—but one player secretly becomes the traitor.",
+    "excerpt": "H.A.I.N is a co-op horror game for 1\u20134 players where you collect artifacts and complete a ritual to escape a cursed world\u2014but one player secretly becomes the traitor.",
     "author": "Gamefolio Team",
     "authorTwitter": "@gamefoliogg",
     "publishedAt": "2026-04-08",
@@ -206,7 +194,7 @@
   {
     "slug": "indiegame-ragdollphysicsexperiment",
     "title": "Indie Spotlight Series #7 - RMF's Ragdoll Physics Experiments",
-    "excerpt": "RMF’s Ragdoll Physics Experiments is a physics sandbox where you experiment with ragdoll characters and systems to create unpredictable outcomes.",
+    "excerpt": "RMF\u2019s Ragdoll Physics Experiments is a physics sandbox where you experiment with ragdoll characters and systems to create unpredictable outcomes.",
     "author": "Gamefolio Team",
     "authorTwitter": "@gamefoliogg",
     "publishedAt": "2026-05-06",
