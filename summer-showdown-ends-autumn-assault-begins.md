@@ -27,19 +27,19 @@ Our Top 10 players will share the complete **20,000 GFT** Summer Showdown reward
 
 GFT isn't the only thing our Summer Showdown players have earned. The Summer Showdown Top 10 will also receive a collection of exclusive seasonal rewards:
 
-![Summer Showdown Season Rewards](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/summer-showdown-autumn-assault/summer-season-rewards.png)
+* **Exclusive Summer Showdown Name Tag** — add a seasonal touch to your name and show everyone you finished among the best players of the season.
+* **Exclusive Summer Profile Theme** — give your Gamefolio an ocean-inspired makeover, created to commemorate Summer Showdown.
+* **Exclusive Summer Profile Border** — frame your profile with a summer look.
 
-* **Exclusive Summer Showdown Name Tag** — show everyone that you finished among the best players of the season.
-* **Exclusive Summer Theme** — a special Gamefolio theme created to commemorate Summer Showdown.
-* **Exclusive Summer Profile Border** — a permanent reminder that you were part of the Summer Showdown.
-
-These seasonal rewards are designed to become part of your Gamefolio identity and show what you've achieved over time.
+The name tag and the profile theme are Top 10 only. These seasonal rewards are designed to become part of your Gamefolio identity and show what you've achieved over time.
 
 ## Everyone Who Took Part Gets Rewarded
 
-Everyone who participated in Summer Showdown will receive the exclusive **Summer Showdown Profile Border**.
+The Top 10 aren't the only ones walking away with something. **Everyone who took part in Summer Showdown receives the exclusive Summer Profile Border.**
 
-You don't need to have finished in the Top 10. If you took part in the season, you'll have something on your Gamefolio to show that you were there.
+You don't need to have finished in the Top 10. If you played the season, you'll have something on your Gamefolio to show that you were there.
+
+![Summer Showdown Season Rewards — Summer Profile Border, Summer Nametag and Summer Profile Theme](https://raw.githubusercontent.com/BetaONEIO/gamefolioblogs/main/assets/summer-showdown-autumn-assault/summer-season-rewards.png)
 
 As Gamefolio grows and more seasons come and go, we want these cosmetics to become a way of showing your history on the platform. Summer Showdown was just the beginning.
 
