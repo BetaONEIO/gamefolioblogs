@@ -1,5 +1,22 @@
 [
   {
+    "slug": "gamefolio-helix-partnership",
+    "title": "Gamefolio \u00d7 HELIX: Helping Streamers Create, Connect and Grow",
+    "excerpt": "We're excited to announce our partnership with HELIX, bringing together two platforms with a shared goal: giving gaming creators better tools, more opportunities and more ways to grow. Create with HELIX. Showcase with Gamefolio. Grow across both.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-09-07",
+    "category": "Streaming",
+    "featured": false,
+    "unlisted": true,
+    "image": {
+      "type": "local",
+      "src": "./assets/helix-partnership/banner.png",
+      "alt": "Gamefolio x HELIX Organisation Partnership"
+    },
+    "readTime": "5 min read"
+  },
+  {
     "slug": "summer-showdown-ends-autumn-assault-begins",
     "title": "Summer Showdown Is Over. Autumn Assault Begins.",
     "excerpt": "The Summer Showdown has come to an end and we have our champions. xxTOWERDOGxx takes the crown with 58,170 Season XP, the Top 10 share the 20,000 GFT reward pool \u2014 and Autumn Assault is now live with a doubled 40,000 GFT prize pool.",
