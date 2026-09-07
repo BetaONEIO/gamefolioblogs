@@ -8,7 +8,6 @@
     "publishedAt": "2026-09-07",
     "category": "Streaming",
     "featured": false,
-    "unlisted": true,
     "image": {
       "type": "local",
       "src": "./assets/helix-partnership/banner.png",
