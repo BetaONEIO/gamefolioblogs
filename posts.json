@@ -1,5 +1,22 @@
 [
   {
+    "slug": "gamefolio-vpzone-partnership",
+    "title": "Gamefolio \u00d7 VPZONE: Go Live, Grow Your Crew",
+    "excerpt": "We're excited to announce our partnership with VPZONE, a low-latency live streaming platform built around the idea that creators shouldn't have to be huge to be seen. Stream on VPZONE. Showcase on Gamefolio. Grow across both.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-09-09",
+    "category": "Streaming",
+    "featured": false,
+    "unlisted": true,
+    "image": {
+      "type": "local",
+      "src": "./assets/vpzone-partnership/banner.png",
+      "alt": "Gamefolio x VPZONE Organisation Partnership"
+    },
+    "readTime": "4 min read"
+  },
+  {
     "slug": "gamefolio-helix-partnership",
     "title": "Gamefolio \u00d7 HELIX: Helping Streamers Create, Connect and Grow",
     "excerpt": "We're excited to announce our partnership with HELIX, bringing together two platforms with a shared goal: giving gaming creators better tools, more opportunities and more ways to grow. Create with HELIX. Showcase with Gamefolio. Grow across both.",
