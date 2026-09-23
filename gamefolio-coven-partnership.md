@@ -1,4 +1,4 @@
-We're excited to announce our partnership with The Coven, the stream team behind [GothicSkullMum](https://www.gothicskullmum.com) and a community built for the misfits, outcasts, weirdos and night owls of gaming.
+We're excited to announce our partnership with The Coven, the stream team founded by [GothicSkullMum](https://www.gothicskullmum.com) and a community built for the misfits, outcasts, weirdos and night owls of gaming.
 
 At Gamefolio, we're building a platform where gamers, streamers and creators can showcase their content, build their gaming identity, connect with communities and discover new opportunities.
 
@@ -26,7 +26,8 @@ The Coven is made up of variety streamers across horror, cozy, competitive and e
 
 ### The Elders
 
-- **ShawnIsFear**, a founding Elder, variety streamer and former podcaster, playing everything from Warzone and Fortnite to horror games
+- **GothicSkullMum (Gothi)**, founder of The Coven, variety streamer and mum, usually found in World of Warcraft, Palia, Heartopia and party games with friends
+- **ShawnIsFear**, a founding Elder, variety streamer and former podcaster, playing everything from Warzone and Fortnite to horror games like The Mortuary Assistant, Dead by Daylight and Subnautica 2
 - **CrimsonMama**, a variety streamer with more than six years of streaming experience, found in Palia, Heartopia, Call of Duty, Phasmophobia and party games
 - **Skittles42023**, a community-driven creator all about good vibes, genuine interaction and moments worth remembering (or clipping)
 - **No1Knows311**, a veteran and long-time MMO player bringing World of Warcraft and New World to the stream, and the person to call when the tech breaks
@@ -38,8 +39,9 @@ The Coven is made up of variety streamers across horror, cozy, competitive and e
 - **Myco_Mystic_Tree (Willow)**, bringing cozy adventures, fantasy and survival games with a cottagecore twist, and a firm belief that community will always come first
 - **Flutie03**, a self-described cozy streamer from South Louisiana playing Warframe, Palia, Jackbox and The Sims 4
 - **VenomReaperIV (Justin)**, a Fortnite and ARPG fan working through Diablo 4, Last Epoch and Titan Quest 2, who thinks gaming should be fun and relaxed
+- **ClarkClanLive (Clark)**, a variety creator bringing police pursuits, roleplay, horror and simulator games, with the community helping shape the content through ideas, challenges and events
 
-Nine streamers, nine very different channels, and one shared idea of what a community should feel like.
+Eleven streamers, eleven very different channels, and one shared idea of what a community should feel like.
 
 ## Why Gamefolio Has Partnered With The Coven
 
@@ -75,6 +77,6 @@ Gamefolio × The Coven
 
 ## About The Coven
 
-The Coven is the stream team and community of GothicSkullMum, bringing together gamers, streamers and creators who found a place to belong. Led by its Elders and joined by its Covenlings, The Coven streams across Twitch, VPZONE and more, covering horror, cozy, competitive and variety gaming, and is built on acceptance, kindness and supporting creators at every stage of their journey.
+The Coven is the stream team and community founded by GothicSkullMum, bringing together gamers, streamers and creators who found a place to belong. Led by its Elders and joined by its Covenlings, The Coven streams across Twitch, VPZONE and more, covering horror, cozy, competitive and variety gaming, and is built on acceptance, kindness and supporting creators at every stage of their journey.
 
 Find The Coven at [gothicskullmum.com](https://www.gothicskullmum.com/the-coven/), join the community on [Discord](https://discord.com/invite/xQ7bbM5Adf) and follow along on [Twitch](https://www.twitch.tv/gothicskullmum), [YouTube](https://www.youtube.com/@gothicskullmum) and [X](https://x.com/gothicskullmum).
