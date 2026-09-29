@@ -16,7 +16,7 @@ Behind the rosters is a community that tunes in to watch, cheer on and celebrate
 
 ## Godalions Live on the Gamefolio Homepage
 
-This partnership isn't just a logo on a banner.
+This sponsorship isn't just a logo on a banner.
 
 As part of our sponsorship, we'll be streaming Godalions content directly on the homepage of [app.gamefolio.com](https://app.gamefolio.com).
 
@@ -26,7 +26,7 @@ For the Gamefolio community, it's a new way to discover competitive gaming as it
 
 For Godalions, it's a new audience ready to get behind the team.
 
-## Why Gamefolio Has Partnered With Godalions
+## Why Gamefolio Is Sponsoring Godalions
 
 Gamefolio has always been about more than uploading gaming clips.
 
@@ -38,7 +38,7 @@ It creates a natural connection:
 
 **Compete with Godalions. Showcase on Gamefolio. Grow across both.**
 
-## A Partnership Built on Competition and Community
+## A Sponsorship Built on Competition and Community
 
 As Gamefolio continues to grow, we want to stand alongside organisations that invest in their players and their community.
 
@@ -48,7 +48,7 @@ Both of us believe that competitive gaming deserves a bigger stage, and that the
 
 And this is only the beginning of what we hope to do together.
 
-We're excited to welcome Godalions as an official Gamefolio partner and look forward to bringing their matches, streams and highlights to the Gamefolio community.
+We're excited to welcome Godalions as an official Gamefolio-sponsored organisation and look forward to bringing their matches, streams and highlights to the Gamefolio community.
 
 Gamefolio × Godalions
 
