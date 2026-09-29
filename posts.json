@@ -1,5 +1,21 @@
 [
   {
+    "slug": "gamefolio-godalions-partnership",
+    "title": "Gamefolio \u00d7 Godalions: Esports Live on the Gamefolio Homepage",
+    "excerpt": "We're excited to announce our organisation sponsorship of esports team Godalions, with their Twitch streams coming directly to the app.gamefolio.com homepage. Compete with Godalions. Showcase on Gamefolio. Grow across both.",
+    "author": "Gamefolio Team",
+    "authorTwitter": "@gamefoliogg",
+    "publishedAt": "2026-09-29",
+    "category": "Streaming",
+    "featured": false,
+    "image": {
+      "type": "local",
+      "src": "./assets/godalions-partnership/banner.png",
+      "alt": "Gamefolio x Godalions Organisation Sponsorship"
+    },
+    "readTime": "3 min read"
+  },
+  {
     "slug": "gamefolio-coven-partnership",
     "title": "Gamefolio \u00d7 The Coven: A Home for Gaming's Misfits",
     "excerpt": "We're excited to announce our partnership with The Coven, the GothicSkullMum stream team built for the misfits, outcasts, weirdos and night owls of gaming. Stream with The Coven. Showcase on Gamefolio. Grow across both.",
